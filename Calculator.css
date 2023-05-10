@@ -1,0 +1,90 @@
+body{
+    background-color: black;
+ }
+
+
+h2{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: red;
+    text-shadow: 2px 2px 4px yellow;
+    text-align: center;
+    font-size: 30px;
+    background-color: pink;
+}
+
+.calc_form{
+    height: 500px;
+    width: 230px;
+    margin: auto;
+    border: 3px solid black;
+    border-radius: 5px;
+    padding: 20px;
+    background-color: rgb(168, 161, 161);
+    box-shadow: 3px 3px 3px rgb(158, 155, 155);
+}
+input:hover{
+    background-color: orangered;
+}
+input{
+    width: 25px;
+    background-color: rgb(166, 205, 221);
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    font-style: bold;
+    font-size: 15px;
+    box-shadow: 3px 3px 3px black;
+    text-align: center;
+
+    
+    
+   }
+#box{
+    width: 220px;
+    background-color: rgb(119, 187, 119);
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    box-shadow:3px 3px 3px rgb(122, 226, 122);
+    text-align: left;
+}
+#clear{
+    width: 100px;
+    background-color:rgb(86, 63, 150) ;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+}
+#eq:hover{
+    background-color: yellow;
+}
+#eq{
+    width: 25px;
+    background-color: pink ;
+    border-radius: 8px;
+    border: 1px solid black;
+    padding: 20px;
+    margin: 5px;
+    color: black;
+    text-align: center;
+}
+#on{
+    height: 48px;
+    width: 48px;
+    padding: 5px;
+    background-color: rgb(68, 218, 68);
+    border-radius: 60%;
+    box-shadow: 3px 3px 3px black;
+    font-size: 15px;
+    position: absolute;
+    text-align: center;
+    margin-left: 10px;
+    margin-bottom: 5px;
+    }
+  

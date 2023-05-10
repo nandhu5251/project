@@ -1,0 +1,43 @@
+<html>
+    <head>
+        
+        <title>Simple Calculator</title>
+        <link rel="stylesheet" href="./Calculator.css">
+        
+    </head>
+    <body>
+        <h2>N-Calculator</h2>
+        
+         <div class="calc_form">
+              <form name="form1">
+                      <input id="box" type="text" name="result">
+                           <br><br>
+                      <input type="button" value="1" onclick="form1.result.value =form1.result.value+'1'">
+                      <input type="button" value="2" onclick="form1.result.value =form1.result.value+'2'">
+                      <input type="button" value="3" onclick="form1.result.value =form1.result.value+'3'">
+                      <input type="button" value="+" onclick="form1.result.value =form1.result.value+'+'">
+                            <br><br>
+                      <input type="button" value="4"  onclick="form1.result.value =form1.result.value+'4'">
+                      <input type="button" value="5"  onclick="form1.result.value =form1.result.value+'5'">
+                      <input type="button" value="6"  onclick="form1.result.value =form1.result.value+'6'">
+                      <input type="button" value="-"  onclick="form1.result.value =form1.result.value+'-'">
+                            <br><br>
+                      <input type="button" value="7"  onclick="form1.result.value =form1.result.value+'7'">
+                      <input type="button" value="8"  onclick="form1.result.value =form1.result.value+'8'">
+                      <input type="button" value="9"  onclick="form1.result.value =form1.result.value+'9'">
+                      <input type="button" value="X"  onclick="form1.result.value =form1.result.value+'*'">
+                             <br><br>
+                      <input type="button" value="0"  onclick="form1.result.value =form1.result.value+'0'">
+                      <input type="button" value="/"  onclick="form1.result.value =form1.result.value+'/'">
+                      <input type="button" value="."  onclick="form1.result.value =form1.result.value+'.'">
+                      <input id="eq"type="button" value="="  onclick="form1.result.value =eval(form1.result.value)">
+                          <br><br>
+                          <input  type="button" value="%"  onclick="form1.result.value =form1.result.value+'%'">
+                          
+                         <input  id="clear"type="button" value="Clear All"  onclick="form1.result.value='' ">
+                         <input id="on" type="button" value="ON"  onclick="form1.result.value =form1.result.value+'0'">
+                           </form>
+                        </div>
+       
+    </body>
+</html>
