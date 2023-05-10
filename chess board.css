@@ -1,0 +1,24 @@
+html{
+    background-color: rgba(196, 99, 9, 0.89);
+}
+body{
+    width: 800px;
+    height: 800px;
+    background-color: white;
+    margin: 30px auto;
+}
+.row{
+    width: 100%;
+    float: left;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    float: left;
+    font-size: 80px;
+    color: orangered;
+    text-align: center;
+}
+.black{
+    background-color: black;
+}
