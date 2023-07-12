@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-image: url(./lapg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 100;
+}
+.logo{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+.logo:hover{
+    color: blue;
+}
+nav a{
+    text-decoration: none;
+    font-size: 18px;
+    color: white;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+nav a:hover{
+    color: blue;
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+.bars{
+    color: red;
+    font-size: 20px;
+    
+}
+.hero header #bar{
+    cursor: pointer;
+    display: none;
+
+}
+.hero header #xmark{
+    position: absolute;
+    top: 38%;
+    cursor: pointer;
+    display: none;
+
+}
+
+
+@media (max-width: 992px){
+    .header{
+        padding: 1.25rem 4%;
+    }
+
+
+}
+@media (max-width: 768px){
+    .hero header #bar{
+        display: block;
+    }
+    .hero header #xmark{
+
+        display: block;
+    }
+   .hero header .bars #xmark{
+      display: none;
+   }
+ #check:checked~.hero header .bars #xmark{
+    display: block;
+ }
+ #check:checked~.hero header .bars #bar{
+    display: none;
+ }
+    
+   nav{ 
+    
+       color: white;
+       position: fixed;
+       top: 6%;
+       left: 80%;
+       width: 120px;
+       border: 2px solid lightgray;
+
+       display: none;
+   }
+   nav.active{
+    display: block;
+   }
+       
+       nav.hidden{
+        display: none;
+       }
+   
+    }
+    /*content section*/
+    #hd{
+        font-size: 40px;
+        color: white;
+        position: absolute;
+        top: 33%;
+        left: 10%;
+        font-family: 'Times New Roman', Times, serif;
+        color: blue;
+    }
+     p{
+        font-size: 20px;
+        color: blue;
+       font-family:'Times New Roman', Times, serif ;
+        position: absolute;
+        top: 40%;
+        left: 10%;
+       font-weight: 500;
+    }
+    .col-box{
+        position: absolute;
+        top: 50%;
+        left: 10%;
+       
+    }
+    .col-box input{
+        border-radius: 10px;
+       
+        padding: 15px 200px 20px 20px;
+    }
+    button{
+        
+        color:white;
+        position: absolute;
+        right: 3%;
+        top: 15%;
+        background-color:rgb(241, 64, 64);
+       
+    }
+    form button{
+       border-radius: 10px ;
+       padding: 7px 18px 8px 17px;
+      border-color: transparent;
+    }
+   
+   /*section 2*/
+   .col-about{
+    height: 100vh;
+    width: 100%;
+    background-color:pink;
+}
