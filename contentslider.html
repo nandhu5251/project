@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0 ">
+    <title>Resposive content slider</title>
+    <!--swiper css-->
+    <link rel="stylesheet" href="./css/unpkg.com_swiper@8.4.7_swiper-bundle.min.css">
+    <!-- css-->
+    <link rel="stylesheet" href="./css/contentslider.css">
+  </head>
+  <body>
+  <div class="slide-container swiper">
+    <div class="slide-content">
+      <div class="card-wrapper swiper-wrapper">
+        <div class="card swiper-slide">
+            <div class="card-content">
+              <p>To start my career as a tecnical person in software field by using 
+                my tecnical Knowledge and Skills in learning environment for the 
+                better growth of the organization</p>
+            </div>
+</div>
+<div class="card swiper-slide">
+    <div class="card-content">
+      <p>As a web content developer, you curate and develop written and video content to populate an organization's website. Web content development focuses on creating blog posts, videos, podcasts, and more to aid in marketing efforts and to create better user experiences for customers.</p>
+    </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="card-content">
+      <p>Content developers or technical content developers can also be technical writers who produce technical documentation that helps people understand and use a product or service. This documentation includes online help, manuals, white papers, design specifications, developer guides, </p>
+    </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="card-content">
+      <p>Content developers or technical content developers can also be technical writers who produce technical documentation that helps people understand and use a product or service. This documentation includes online help, manuals, white papers, design specifications, developer guides, </p>
+    </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="card-content">
+      <p>Content developers or technical content developers can also be technical writers who produce technical documentation that helps people understand and use a product or service. This documentation includes online help, manuals, white papers, design specifications, developer guides, </p>
+    </div>
+</div>
+
+<div class="card swiper-slide">
+    <div class="card-content">
+      <p>Content developers or technical content developers can also be technical writers who produce technical documentation that helps people understand and use a product or service. This documentation includes online help, manuals, white papers, design specifications, developer guides, </p>
+    </div>
+</div>
+
+
+
+
+
+
+
+
+
+        
+      </div>
+    </div>
+    <div class="swiper-button-next"></div>
+    <div class="swiper-button-prev"></div>
+    <div class="swiper-pagination"></div>
+  </div>
+  </body>
+  <!--swiper js-->
+  <script src="./js/unpkg.com_swiper@8.4.7_swiper-bundle.min.js"></script>
+  <!--javascript-->
+  <script>
+    var swiper = new Swiper(".slide-content", {
+    slidesPerView: 3,
+    spaceBetween: 25,
+    loop: true,
+   
+    centerSlide: 'true',
+    fade: 'true',
+    gragCursor: 'true',
+    
+    
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+      dynamicBullets: true,
+    },
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+
+breakpoints:{
+    0: {
+        slidePerView: 1,
+    },
+    520: {
+        slidePerView: 1,
+    },
+    950: {
+        slidePerView: 1,
+    },
+},
+
+
+
+
+
+  });
+  </script>
+</html>
