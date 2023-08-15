@@ -1,0 +1,76 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.mainC{
+    position: relative;
+    width: 320px;
+    height: 220px;
+    margin: 80px auto;
+}
+.box{
+    position: relative;
+    height: 100%;
+    width: 100%;
+    border: 1px solid #ddd;
+    top: -1px;
+}
+.header{
+    font-family: sans-serif;
+    font-weight: bold;
+    border: 1px solid #ddd;
+    padding: 5px;
+    background-color: rgba(0, 128, 0, 0.452);
+}
+.container{
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    text-align: center;
+    font-family: sans-serif;
+    font-size: 12px;
+
+}
+.main{
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+
+}
+.main .news{
+    padding: 8px 5px 5px 5px ;
+}
+.main a:hover{
+    color: #000;
+}
+.main p{
+    margin: 0px;
+    padding: 0px 3px 10px 3px;
+
+}
+.top, .bottom {
+    position: absolute;
+    width: 100%;
+    height: 30px;
+    left: 0px;
+  
+}
+.top {
+    top: 0px;
+    /*
+    background: ;*/
+}
+.bottom {
+    top: 0px;
+    /*
+    background: ;*/
+}
+hr{
+    border: 0;
+    height: 0;
+    border-top: 1px solid gray;
+}
