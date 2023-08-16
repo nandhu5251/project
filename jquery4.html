@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jquery4.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+    <div id="attributes"><div class="attr">
+        <img src="../images/1.jpg" height="200px" width="200px">
+        <img src="../images/2.jpg" height="200px" width="200px">
+        <img src="../images/c1.jpg" height="200px" width="200px">
+        <img src="../images/c2.jpg" height="200px" width="200px">
+        <button class=" remove" type="button">Remove</button>
+       
+    </div>
+    
+    </div>
+    
+    <button class=" add" type="button">Add</button>
+   
+    <script>
+        /* Variables */
+var row = $(".attr");
+
+function addRow() {
+  row.clone(true, true).appendTo("#attributes");
+}
+
+function removeRow(button) {
+  button.closest("div.attr").remove();
+}
+
+$('#attributes .attr:first-child').find('.remove').hide();
+
+
+$(".add").on('click', function () {
+  addRow();  
+  if($("#attributes .attr").length > 1) {
+    
+    $(".remove").show();
+  }
+});
+$(".remove").on('click', function () {
+  if($("#attributes .attr").size() == 1) {
+    
+    $(".remove").hide();
+  } else {
+    removeRow($(this));
+    
+    if($("#attributes .attr").size() == 1) {
+        $(".remove").hide();
+    }
+    
+  }
+});
+
+    </script>
+</body>
+</html>

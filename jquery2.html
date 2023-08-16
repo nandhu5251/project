@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jquery2.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+     <!--load animation-->
+     
+     <button id="fast">Fast</button>
+<button id="slow">Slow</button>
+<button id="hidr">Hide All</button>
+<button id="click" onClick="click_expand(fast)">on click</button>
+<div class="fast">word</div>
+<div class="fast">words</div>
+<div class="fast">wordy</div>
+
+<div class="slow">let</div>
+<div class="slow">letters</div>
+<div class="slow">lettering</div>
+
+
+
+
+
+<p id="add"> Nandha Engineering College is one of the greatest colleges in Erode in terms of facilities, meeting international standards. 
+    It has upgraded its classrooms to allow for current tools and techniques to be used in the classroom.</p>
+
+    <p id="para">The optional speed parameter specifies the duration of the effect. It can take the following values: "slow", "fast", or milliseconds.
+The optional callback parameter is a function to be executed after the sliding completes.</p>
+<button onclick="adding()" id="add">Add</button>
+<button  id="remove" >Remove</button>
+
+<script>
+          /*load animation*/
+jQuery( "#fast" ).click(function() {
+  jQuery( ".fast" ).first().show( "fast", function showNext() {
+    jQuery( this ).next( ".fast" ).show( "fast", showNext );
+  });
+});
+
+jQuery( "#slow" ).click(function() {
+  jQuery( ".slow" ).first().show( "slow", function showNext() {
+    jQuery( this ).next( "div" ).show( "slow", showNext );
+  });
+});
+ 
+ 
+jQuery( "#hidr" ).click(function() {
+  jQuery( "div" ).hide( 1000 );
+});
+
+
+//in button one element
+function click_expand (theClass){  
+  jQuery("."+theClass).show("fast")
+  }
+/*  add & remove*/
+function adding() {
+  document.getElementById("#add").style.display = "block";
+}
+
+
+
+
+
+
+
+
+$(document).ready(function(){
+    $("#add").click(function(){
+        $(".para").show;
+    });
+});
+
+
+
+     </script>
+</body>
+</html>

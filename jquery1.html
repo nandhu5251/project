@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./jquery1.css">
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
+</head>
+<body>
+    <div class="image">
+        <img src="../images/1.jpg">
+        <img src="../images/2.jpg">
+        <img src="../images/c1.jpg">
+        <img src="../images/c2.jpg">
+        </div>
+        <button id="show">Show</button>
+
+
+      
+         <!--fade-in fade-out-->
+         <div id="slider">
+            <img class="show" src="../images/2.jpg" alt="">
+            <img src="../images/c1.jpg" alt="">
+            <img src="../images/c2.jpg" alt="">
+            <img src="../images/m1.jpg" alt="">
+          </div>
+        
+    <script>
+        /*show & hide */
+
+        
+$(document).ready(function() {
+     $(".image").click(function() {
+         $("img").hide();
+     });
+
+     $("#show").click(function() {
+         $("img").show();
+     });
+    });
+  
+    $(document).ready(function(){
+ 
+  slideShow();
+
+/*fade*/
+
+function slideShow(){
+  
+    var current = $('#slider .show');
+    var next = current.next().length ? 
+      current.next() :
+  current.siblings().first();
+    current.hide().removeClass('show');
+   next.fadeIn("slow").addClass('show');
+  setTimeout(slideShow, 3000);
+  
+};
+  
+}); 
+
+ 
+    </script>
+</body>
+</html>
