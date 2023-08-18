@@ -1,0 +1,333 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+.header{
+    background-color: lightpink;
+    height: 100vh;
+    width: 100%;
+}
+.hero{
+    width: 1350px;
+    height: 70px;
+     box-shadow:  0px 6px 12px 0px gray;
+    border: 3px solid white;
+    top: 0;
+    left: 0;
+   padding: 20px 10%;
+   display: flex;
+   justify-content: space-between;
+   align-items: center;
+   position: fixed;
+ background-color: white;
+  z-index: 100;
+}
+.boot{
+    color: blue;
+}
+.navbar a{
+   margin-left: 15px;
+    text-decoration: none;
+    font-size: 20px;
+    color: black;
+   
+}
+.navbar a:hover{
+    color: #f4623a ;
+}
+.content h4{
+    font-size: 50px;
+   position: absolute;
+   top: 30%;
+   left: 25%;
+}
+.hd{
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    left: 35%;
+ }
+ .hd::after{
+     content: "";
+     position: absolute;
+     left: 40%;
+     top: 130%;
+     border: 2px solid red;
+     width: 15%;
+ }
+ .content p{
+     text-align: center;
+    
+ }
+ .p1{
+     position: absolute;
+     top:55%;
+     left: 27%;
+ }
+ .p2{
+     position: absolute;
+     top:59%;
+     left: 31%;
+ }
+ .content a{
+     position: absolute;
+     top:70%;
+     left: 45%;
+     text-decoration: none;
+     border-radius: 60px;
+     padding: 20px;
+     background-color: rgba(255, 68, 0, 0.877);
+     color: white;
+ }
+ .content a:hover{
+     background-color: rgb(255, 68, 0);
+ }
+ 
+ .box-content{
+    background-color:#f4623a;
+    height: 500px;
+    width: 100%;
+}
+.para{
+    position: absolute;
+    top: 135%;
+    left: 35%;
+    font-size: 31px;
+    color: white;
+}
+.para::after{
+    content: "";
+    position: absolute;
+    left: 40%;
+    top: 130%;
+    border:2px solid white;
+    width: 15%;
+}
+.p3{
+    position: absolute;
+    top: 147%;
+    left: 25%;
+    font-size: 16px;
+    color: white;
+}
+.p4{
+    position: absolute;
+    top: 150%;
+    left: 24%;
+    font-size: 16px;
+    color: white;
+}
+
+.button1{
+    position: absolute;
+    top:155%;
+    left: 45%;
+    text-decoration: none;
+    border-radius: 60px;
+    padding: 20px;
+    background-color: white;
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+}
+.hero2{
+    height: 100vh;
+    width: 100%;
+}
+.line-hd{
+    position: absolute;
+    top: 220%;
+    left: 40%;
+    font-size: 30px;
+}
+.line-hd::after{
+    content: "";
+    position: absolute;
+    left: 40%;
+   top: 160%;
+    border:2px solid#f4623a ;
+    width: 21%;
+}
+.l1{
+    position: absolute;
+    top: 243%;
+    left: 10%;
+    font-size: 22px;
+}
+.l2{
+    position: absolute;
+    top: 248%;
+    left: 10%;
+    font-size: 15px;
+    color: gray;
+}
+.l3{
+    position: absolute;
+    top: 252%;
+    left: 9%;
+    font-size: 15px;
+    color: gray;
+}
+.l4{
+    position: absolute;
+    top: 256%;
+    left: 14%;
+    font-size: 15px;
+    color: gray;
+}
+.a1{
+    position: absolute;
+    top: 243%;
+    left: 33%;
+    font-size: 22px;
+}
+.a2{
+    position: absolute;
+    top: 248%;
+    left: 31%;
+    font-size: 15px;
+    color: gray;
+}
+.a3{
+    position: absolute;
+    top: 252%;
+    left: 31%;
+    font-size: 15px;
+    color: gray;
+}
+.b1{
+    position: absolute;
+    top: 243%;
+    left: 50%;
+    font-size: 22px;
+}
+.b2{
+    position: absolute;
+    top: 248%;
+    left: 48%;
+    font-size: 15px;
+    color: gray;
+}
+.b3{
+    position: absolute;
+    top: 252%;
+    left: 50%;
+    font-size: 15px;
+    color: gray;
+}
+.c1{
+    position: absolute;
+    top: 243%;
+    left: 72%;
+    font-size: 22px;
+}
+.c2{
+    position: absolute;
+    top: 248%;
+    left: 71%;
+    font-size: 15px;
+    color: gray;
+}
+.c3{
+    position: absolute;
+    top: 252%;
+    left: 75%;
+    font-size: 15px;
+    color: gray;
+}
+.d1{
+    position: absolute;
+    top: 300%;
+    left: 40%;
+    font-size: 30px;
+}
+.d1::after{
+    content: "";
+     position: absolute;
+     left: 40%;
+     top: 180%;
+     border: 2px solid red;
+     width: 20%;
+}
+.d2{
+    position: absolute;
+    top: 315%;
+    left: 35%;
+    font-size: 15px;
+    color: gray;
+}
+.d3{
+    position: absolute;
+    top: 319%;
+    left: 42%;
+    font-size: 15px;
+    color: gray;
+}
+.box1{
+   position: absolute;
+   top: 328%;
+   left: 35%;
+}
+.box1 form input:first-child{
+    border-radius: 5px;
+    padding: 20px 285px 20px 20px;
+    width: 100%;
+}
+   .box1 form input:first-child:hover{
+    
+     box-shadow: 0px 0px 15px  red;
+   }
+   .box2{
+    position: absolute;
+    top: 340%;
+    left: 35%;
+ }
+ .box2 form input:first-child{
+     border-radius: 5px;
+     padding: 20px 285px 20px 20px;
+     width: 100%;
+ }
+    .box2 form input:first-child:hover{
+     
+      box-shadow: 0px 0px 15px  red;
+    }
+    .box3{
+        position: absolute;
+        top: 352%;
+        left: 35%;
+     }
+     .box3 form input:first-child{
+         border-radius: 5px;
+         padding: 20px 285px 20px 20px;
+         width: 100%;
+     }
+        .box3 form input:first-child:hover{
+         
+          box-shadow: 0px 0px 15px  red;
+        }
+        .box4{
+            position: absolute;
+            top: 364%;
+            left: 35%;
+         }
+         .box4 form input:first-child{
+             border-radius: 5px;
+             padding: 20px 285px 70px 20px;
+             width: 100%;
+         }
+            .box4 form input:first-child:hover{
+             
+              box-shadow: 0px 0px 15px  red;
+            }
+            .button2{
+                position: absolute;
+                top: 390%;
+                left: 34%;
+                padding: 20px 220px 20px 220px;
+                border-radius: 60px;
+                text-decoration: none;
+                background-color: #f4623a;
+                color: white;
+            }

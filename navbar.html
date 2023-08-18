@@ -1,0 +1,51 @@
+<html>
+    <head>
+        <link rel="stylesheet" href="./p3.css">
+        
+        <title>navabar</title>
+    </head>
+    <body>
+        <header>
+            <a href="#" class="logo">Activelink</a>
+            <nav>
+              <a href="#home" class="active">home</a>
+              <a href="#about">about</a>
+              <a href="#education">Education</a>
+              <a href="#skills">skills</a>
+            </nav>
+        </header>
+        <section id="home"></section>
+        <section id="about">about</section>
+        <section id="education">education</section>
+        <section id="skills">skills</section>
+
+        <script>
+            let sections = document.querySelectorAll('section');
+let navLinks = document.querySelectorAll('header nav a');
+
+window.onscroll = () => {
+    sections.forEach(sec => {
+        let top = window.scrollY;
+        let offset = sec.offsetTop - 150;
+        let height = sec.offsetHeight;
+        let id = sec.getAttribute('id');
+
+        if(top >= offset && top < offset + height) {
+            navLinks.forEach(links => {
+               links.classList.remove('active');
+               document.querySelector('header nav a[href*=' + id + ']').classList.add('active');
+               
+            
+            });
+        };
+    });
+};
+        </script>
+    </body>
+</html>
+
+
+
+
+
+   
