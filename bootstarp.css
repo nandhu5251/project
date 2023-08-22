@@ -1,0 +1,57 @@
+
+.row justify-content-md-center{
+    position: absolute;
+    top: 140%;
+    left: 10%;
+    height: 600px;
+    display: flex;
+   gap: 30px;
+   
+}
+.container{
+    min-height: 100vh;
+    width: 100%;
+   
+}
+ .card{
+background-color: whitesmoke;
+}
+
+
+.head{
+color: rgb(8, 156, 214);
+font-size: 50px;
+margin: 10px 30px;
+}
+.card-text{
+padding: 20px;
+max-width: 300px;
+font-size: 25px;
+color: grey;
+}
+.card-img-top{
+position: absolute;
+top: 60%;
+height: 200px;
+width: 200px;
+
+}
+.circle{
+position: absolute;
+top: 65%;
+left: 65%;
+overflow: hidden;
+
+background-color: rgba(128, 128, 128, 0.178);
+height: 250px;
+width: 250px;
+border-radius: 125px;
+
+}
+.link{
+position: absolute;
+top: 52%;
+left: 22%;
+font-size: 25px;
+color: gray;
+}

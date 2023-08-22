@@ -1,0 +1,167 @@
+
+.section{
+    min-height: 100vh;
+    width: 100%;
+    background-color:whitesmoke;
+}
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+   background-color:whitesmoke;
+    background-size: cover;
+    background-position: center;
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 90px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+   background: transparent;
+    z-index: 100;
+}
+.logo{
+    text-decoration: none;
+    font-size: 22px;
+    color: white;
+    font-weight: 600;
+}
+.logo:hover{
+    color: blue;
+}
+nav a{
+    text-decoration: none;
+    font-size: 25px;
+   color: black;
+    font-weight: 500;
+    margin-left: 20px;
+
+}
+nav a:hover{
+    
+}
+input[type="checkbox"]{
+    -webkit-appearance: none;
+    display: none;
+}
+
+
+.bars{
+    color: red;
+    font-size: 20px;
+    
+}
+.hero header #bar{
+    cursor: pointer;
+    display: none;
+
+}
+.hero header #xmark{
+    position: absolute;
+    top: 38%;
+    cursor: pointer;
+    display: none;
+
+}
+/*content section*/
+h3{
+    max-width: 100px;
+    position: absolute;
+    top: 30%;
+    font-size: 50px;
+  
+  }
+  .span{
+      font-size: 70px;
+      color: rgba(0, 0, 95, 0.767);
+  }
+  .header-info-1{
+    position: absolute;
+    top: 70%;
+    font-size: 30px;
+    border: 1px solid black;
+    padding: 10px 10px;
+}
+/* end content section*/
+
+@media (max-width: 700px){
+    .header{
+        padding: 1.25rem 4%;
+    }
+
+
+}
+@media (max-width: 470px){
+    .hero header #bar{
+        display: block;
+    }
+    .hero header #xmark{
+
+        display: block;
+    }
+   .hero header .bars #xmark{
+      display: none;
+   }
+ #check:checked~.hero header .bars #xmark{
+    display: block;
+ }
+ #check:checked~.hero header .bars #bar{
+    display: none;
+ }
+    
+   nav{ 
+    
+       color: white;
+       position: fixed;
+       top: 13%;
+       left: 60%;
+       width: 120px;
+       border: 2px solid lightgray;
+
+       display: none;
+   }
+   nav.active{
+    display: block;
+   }
+       
+       nav.hidden{
+        display: none;
+       }
+   
+    }
+
+    /*content section*/
+    .lh-lg-1{
+        color:skyblue;
+        position: absolute;
+        left: 25%;
+        font-size: 80px;
+        font-weight: 700;
+        }
+        .lh-lg-2{
+            
+            position: absolute;
+            top: 112%;
+            left: 30%;
+            font-size: 60px;
+            font-weight: 700;
+            }
+            
+            .lh-lg{
+                position: absolute;
+                top: 123%;
+                left: 23%;
+                text-align: center;
+                max-width: 1100px;
+                font-size: 18px;
+            }
