@@ -30,10 +30,10 @@
  </nav>
  <div class="nav-btn">
             
-    <a href="#for demo" class="btn">for demo</a>
-    <a href="#en" class="en">en</a>
-    <a href="#ai" class="ai">ai</a>
-   </div>
+  <a href="#for demo" class="btn">for demo</a>
+  <a href="#en" class="en">en</a>
+  <a href="#ai" class="ai">ai</a>
+ </div>
  
  <label for="check" class="bars">
      <span class="fa-solid fa-bars" id="bar"></span>
@@ -310,6 +310,29 @@
 
 
 </div>
+
+<script>
+   
+    const menuIcon =document.querySelector('#bar');
+    const xmark = document.querySelector('#xmark');
+     const navbar = document.querySelector('nav');
+    
+     menuIcon.addEventListener('click',()=>{
+          
+            
+            navbar.classList.toggle('active');  
+         
+     });
+   xmark.addEventListener('click',()=>{
+          navbar.classList.toggle('hidden');
+   
+   });
+    
+
+    
+
+
+ </script>
     </body>
     </html>
 
