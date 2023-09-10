@@ -1,0 +1,329 @@
+.blue-box{
+        
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px auto;
+    padding: 40px 40px;
+   font-size: 20px;
+   background-color: #29439a;
+   color: white;
+   
+}
+.two-points{
+    color: white;
+    font-size: 30px;
+    
+}
+.list-1{
+    list-style: none;
+    line-height: 1.2;
+}
+.two-points{
+    
+    position: relative;
+    bottom: 12%;
+}
+.blue-box .para-c {
+    font-size: 20px;
+    /* text-align: center; */
+    margin-left: 10%;
+}
+
+.fi-points{
+    list-style: none;
+    line-height: 2.2;
+    margin-top: 7%;
+   font-size: 20px;
+}
+.sky-box-hd{
+    font-size: 25px;
+}
+@media (max-width: 768px){
+    .blue-box .para-c {
+        font-size: 17px;
+
+    }
+    .two-points{
+       margin-left: 10%;
+        position: relative;
+        bottom: 8%;
+        font-size: 25px;
+        
+    }
+    
+
+  .fi-points{
+   
+    font-size: 17px;
+    
+}
+}
+@media (max-width: 425px){
+.blue-box{
+    flex-direction: column;
+}
+.two-points{
+    
+    font-size: 30px;
+    
+}
+.blue-box .para-c {
+    font-size: 13px;
+    
+    /* margin-left: 13%; */
+}
+.clo-top{
+    margin-left: 10%;
+}
+.blue-box .para-c {
+    margin-left: 20%;
+    
+    /* margin-left: 13%; */
+}
+.blue-box img{
+     margin-left: 10%;
+}
+.fi-points{
+    line-height: 2.2;
+    margin-top: 5%;
+    font-size: 13px;
+    right: 10%;
+    position: relative;
+   
+   
+}
+.sky-box-hd{
+    position: relative;
+    right: 10%;
+    font-size: 22px;
+}
+
+#abt{
+    position: relative;
+    left: 0%;
+}
+.privacy{
+    position: relative;
+    left: 10%;
+}
+.blue-box{
+    padding: 20px 20px;
+}
+
+
+
+
+}
+@media (max-width: 330px){
+    .blue-box img{
+        margin-left:2%;
+   }
+   .clo-top{
+    margin-left: 5%;
+}
+.blue-box .para-c {
+    margin-left: 17%;
+    
+    /* margin-left: 13%; */
+}
+
+}
+/* section-9 */
+/*white box*/
+.white-box{
+    display: flex;
+    justify-content: space-evenly;
+   
+    padding: 80px;
+   font-size: 20px;
+ 
+   color: black;
+   
+}
+.list-5{
+  
+    list-style: none;
+ 
+ }
+ .list-6{
+   
+     list-style: none;
+  
+  }
+  .list-7{
+   font-size: 18px;
+     list-style: none;
+  
+  }
+  .list-8{
+   
+     list-style: none;
+  
+  }
+  @media (max-width: 330px){
+    .white-box{
+        height: 800px;
+        width:  300px;
+     
+        font-size: 14px;
+        flex-direction: column;
+       
+      padding: 10px;
+    }
+    
+      .list-7{
+       font-size: 12px;
+       
+      
+      }
+      
+
+  }
+  @media (max-width: 425px){
+    .white-box{
+       
+     
+        font-size: 12px;
+        flex-direction: column;
+       
+      padding: 10px;
+    }
+    
+      .list-7{
+       font-size: 12px;
+       
+      
+      }
+    }
+
+    @media (max-width: 768px){
+        .white-box{
+           
+         
+            font-size: 12px;
+           
+        }
+        
+          .list-7{
+           font-size: 12px;
+           
+          
+          }
+        }
+  /* end of section-9 */
+
+/* section-6 */
+
+
+.center-content-hd-1{
+    margin-top: 5%;
+    text-align: center;
+       
+    font-size: 70px;
+    font-weight: 600;
+    color: skyblue;
+   
+
+
+}
+
+
+.center-content-2{
+    text-align: center;
+     
+    font-size: 60px;
+    font-weight: 700;
+
+
+
+}
+.back-head{
+    background-color: transparent;
+}
+
+.center-content-3{
+ margin-left: 10%;
+    text-align: center;
+    width: 80%;
+    font-size: 18px;
+    
+
+
+
+}
+@media (max-width: 330px) {
+
+  .center-content-hd-1{
+    font-size: 18px !important;
+  }
+}
+    @media (max-width: 1030px) {
+
+        .center-content-hd-1{
+            font-size: 50px;
+        }
+    
+        .center-content-2{
+            font-size: 30px;
+        }
+    
+        .center-content-3{
+            font-size: 13px;
+        }
+    
+        
+
+
+    }
+
+
+    @media (max-width: 425px) {
+
+      .center-content-hd-1{
+        font-size: 30px !important;
+      }
+      .center-content-3{
+          
+
+
+      }
+
+
+
+
+
+
+    }
+
+
+/* end of section-6 */
+
+
+
+
+
+
+
+
+
+/*  
+  .home_content h1{
+    color: white;
+    position: absolute;
+    top: 26%;
+    left: 10%;
+    font-size: 56px;
+    font-weight: 700;
+    animation: slideRight 1s ease forwards;
+    animation-delay: .1s;
+}
+@keyframes slideRight {
+  0%{
+      transform: translateX(-100px);
+      opacity: 0;
+  }
+  100% {
+      transform: translateX(0);
+      opacity: 1;
+  }
+}*/
