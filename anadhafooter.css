@@ -1,0 +1,203 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.equal-1 {
+    display: flex;
+    gap: 14px;
+}
+.equal-2 {
+    display: flex;
+
+}
+.equal-3 {
+    display: flex;
+}
+.fa-sharp{
+  color: blue;
+  font-size: 28px;
+}
+.fa-solid{
+    color: blue;
+    font-size: 28px;
+  }
+  .fa-regular{
+    color: blue;
+    font-size: 28px;
+  }
+  h4.addrhead-1 {
+    font-size: 21px;
+}
+p.addrpar-1 {
+    color: gray;
+    font-size: 15px;
+}
+p.addrpar-second {
+    color: gray;
+    font-size: 15px;
+    margin-top: -5%;
+}
+
+
+
+
+h4.addrhead-2 {
+    font-size: 21px;
+}
+p.addrpar-2 {
+    color: gray;
+    font-size: 15px;
+}
+
+h4.addrhead-3{
+    font-size: 21px;
+}
+p.addrpar-3 {
+    color: gray;
+    font-size: 15px;
+}
+.line {
+    
+    width: 80%;
+    border: 1px solid gray;
+}
+.sec11-img1 {
+    margin-top: 10%;
+    width: 65%;
+}
+.sec11-logo {
+    font-size: 40px;
+    margin-top: 10%;
+    color: blue;
+}
+.line1 {
+    width: 25%;
+    border: 1px solid blue;
+}
+.information {
+    margin-top: 19%;
+}
+.company {
+    margin-top: 19%;
+}
+.email {
+    margin-top: 19%;
+}
+.ul {
+    margin-top: 10%;
+    list-style: none;
+    font-size: 15px;
+    line-height: 1.1;
+    color: gray;
+}
+input[type="text"] {
+    height: 34px;
+    text-align: center;
+}
+button {
+    background-color: skyblue;
+    border: none;
+    width: 15%;
+    height: 40px;
+}
+i.fa-solid.fa-paper-plane {
+    font-size: 22px;
+    color: white;
+}
+/* meadia query */
+/* section-10 media uery */
+@media (max-width: 768px) {
+    h4.addrhead-1 {
+        font-size: 18px;
+    }
+    h4.addrhead-2 {
+        font-size: 18px;
+    }
+    h4.addrhead-3 {
+        font-size: 18px;
+    }
+    .sec11-logo {
+        font-size: 28px;
+    }
+    p.addrpar-1 {
+      
+        font-size: 14px;
+    }
+    p.addrpar-second {
+       
+        font-size: 14px;
+        
+    }
+    p.addrpar-2 {
+        
+        font-size: 14px;
+    }
+    p.addrpar-3 {
+        
+        font-size: 14px;
+    }
+}
+/* end of section-10 media query */
+/* section-11 media */
+@media (max-width: 1024px) {
+h4.sec11-hg1 {
+    font-size: 21px;
+}
+}
+
+
+
+
+@media (max-width: 768px){
+h4.sec11-hg1 {
+    font-size: 15px;
+}
+input[type="text"] {
+   
+    width: 81%;
+}
+button {
+   
+    width: 15%;
+    height: 34px;
+}
+i.fa-solid.fa-paper-plane {
+    font-size: 15px;
+    color: white;
+}
+
+
+
+}
+@media (max-width: 425px){
+.sec11-img1 {
+  
+        margin-top: 6%;
+    
+    width: 42%;
+}
+
+
+.sec11-logo {
+    font-size: 31px;
+}
+.line1 {
+    width: 10%;
+}
+.ul {
+    margin-top: 6%;
+}
+.information {
+    margin-top: 3%;
+}
+.company {
+    margin-top: 3%;
+}
+.email{
+    margin-top: 3%;
+}
+
+
+}
+/* end of sction-11 media */
