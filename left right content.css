@@ -1,0 +1,126 @@
+
+
+/* campus section */
+.left {
+    background-image: url(https://demo.getln.com/alameen/wp-content/uploads/2023/12/01-12.jpg);
+    height: 900px;
+    width: 65%;
+    display: flex;
+    align-items: flex-end;
+}
+ .yellow-box {
+   
+    color: black;
+    background-color: #fec43a;
+    width: 450px;
+    padding: 21px;
+} 
+.right {
+    background-color: #4d3e84;
+    height: 900px;
+    width: 35%;
+	color: white;
+    padding: 47px;
+}
+/* @media (max-width: 450px) {
+
+.yellow-box {
+width: 250px;
+padding: 0px;
+  top: 70%;
+	}
+
+
+
+} */
+.section-back-cont {
+    display: flex;
+}
+
+
+.icon {
+    font-size: 50px;
+    padding: 15px;
+	color: #ffc53a;
+}
+
+.icon-cont {
+    display: flex;
+	padding: 10px;
+
+}
+
+
+.right h3 {
+    font-size: 36px;
+   
+}
+
+
+.para h4 {
+    font-size: 25px;
+}
+
+
+
+@media (max-width: 1440px) {
+.right h3 {
+    font-size: 30px;
+}
+
+}
+
+
+@media (max-width: 1024px){
+.right h3 {
+    font-size: 22px;
+	}
+	
+.icon-cont {
+    
+    padding: 0px;
+}
+.icon {
+ 
+    padding: 10px;
+	
+	}
+	
+	
+}
+
+@media (max-width: 768px) {
+	.section-back-cont {
+  flex-direction: column;
+}
+.right {
+    
+     height: 753px; 
+    width: 100%;
+} 
+.left {
+    
+    height: 600px; 
+    width: 100%;
+}  	
+	
+	
+}
+@media (max-width: 320px) {
+	
+	.right {
+    
+     height: 953px; 
+    
+} 
+.para h4 {
+    font-size: 20px;
+}
+	
+}
+.para p {
+    text-align: justify;
+    font-size: 15px;
+}
+	
+	
