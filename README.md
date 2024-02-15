@@ -7,3 +7,6 @@
 ![back](https://github.com/nandhu5251/project/assets/132483532/eb20eb61-739f-4458-973f-7948041069e8)
 ![road3](https://github.com/nandhu5251/project/assets/132483532/2062c754-00d6-45b7-85e6-a24b584619e1)
 ![sofa](https://github.com/nandhu5251/project/assets/132483532/2b4d3200-01df-46cf-bd62-47918f544c87)
+
+![bg img](https://github.com/nandhu5251/project/assets/132483532/604f6ffe-3f30-4253-978d-b5e9e65c69d2)
+![lastbg](https://github.com/nandhu5251/project/assets/132483532/6d0eea1b-016f-4ed1-bf71-0483f852a2d6)
